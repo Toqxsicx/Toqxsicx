@@ -13,7 +13,7 @@ local Tab7 = Window:NewTab("Clicker Simulator")
 local TabSection = Tab:NewSection("Auto Farm")
 local TabSection2 = Tab2:NewSection("Best Gui")
 local TabSection3 = Tab3:NewSection("Dupe scripts")
-local TabSection4 = Tab4:NewSection("Farm script")
+local TabSection4 = Tab4:NewSection("Farm scripts")
 local TabSection5 = Tab5:NewSection("Best script")
 local TabSection6 = Tab6:NewSection("Auto shoot")
 local TabSection7 = Tab7:NewSection("Clicker simulator")
@@ -376,6 +376,14 @@ end)
 
 TabSection4:NewButton("Saza Hub", "Not made by me", function()
     loadstring(game:HttpGet"https://scriptblox.com/raw/SAZA-HUB_496")() 
+end)
+
+TabSection4:NewButton("Master Hub", "Not made by me", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))() 
+end)
+
+TabSection8:NewButton("", "Not made by me", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()
 end)
 
 TabSection5:NewButton("Vape Gui", "Not made by me", function()
